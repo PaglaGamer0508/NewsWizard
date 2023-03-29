@@ -1,0 +1,23 @@
+/* For the Loading Spinner */
+#loading_screen{
+  /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading_spinner{
+    width: 5rem;
+    height: 5rem;
+    border: .7rem solid rgb(207, 207, 207);
+    border-radius: 50%;
+    border-top-color: #3183ff;
+    animation: loading 1s ease-in-out infinite;
+  }
+  
+  @keyframes loading {
+    to {
+    transform: rotate(1turn)
+  }
+}
+/* For the Loading Spinner - ENDS HERE */
